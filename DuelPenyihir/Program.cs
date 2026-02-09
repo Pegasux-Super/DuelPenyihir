@@ -1,6 +1,6 @@
 ﻿
 Wizard wizardA = new Wizard("Mikadou", 20);
-Wizard wizardB = new Wizard("Katako", 24);
+Wizard wizardB = new Wizard("Koruto", 24);
 
 
 Console.WriteLine("Permainan Dimulai...\n");
@@ -16,7 +16,7 @@ string pilihan;
 
 while(wizardA.Energi > 0 && wizardB.Energi > 0)
 {
-    Console.WriteLine("Pilih salah satu pilihan berikut: ");
+    Console.WriteLine("\nPilih salah satu pilihan berikut: ");
     Console.WriteLine($"1. {wizardA.Name} menyerang {wizardB.Name}");
     Console.WriteLine($"2. {wizardB.Name} menyerang {wizardA.Name}");
     Console.WriteLine($"3. {wizardA.Name} melakukan heal");
